@@ -1,0 +1,21 @@
+{
+    "attrs": {
+        "width": 800,
+        "height": 600,
+        "mplot": "0.4.0"
+    },
+    "className": "Stage",
+    "children": [{
+        "attrs": {
+            "name": "backgroundLayer"
+        },
+        "className": "Layer",
+        "children": []
+    }, {
+        "attrs": {
+            "name": "shapesLayer"
+        },
+        "className": "Layer",
+        "children": []
+    }]
+}

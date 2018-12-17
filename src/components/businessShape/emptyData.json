@@ -1,0 +1,21 @@
+{
+    "uuid": "",
+    "code": "",
+    "codeFontSize": 10,
+    "codeFontStyle": "normal",
+    "codeFontFamily": "simsun",
+    "name": "",
+    "nameFontSize": 14,
+    "nameFontStyle": "bold",
+    "nameFontFamily": "simsun",
+    "boothType": "",
+    "entryType": "",
+    "lateralLength": 0,
+    "verticalLength": 0,
+    "area": 0,
+    "status": "normal",
+    "shapeUuid": "",
+    "stageUuid": "",
+    "tenantId": "",
+    "tenantName": ""
+}

@@ -1,0 +1,42 @@
+.app-home-plots {
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid #ddd;
+}
+
+.app-home-plots-body {
+    flex: 1;
+    padding: 8px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    @extend .moft-scrollable-light;
+    .common-base-image-list-item {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .app-home-plots {
+        width: 240px;
+    }
+    .app-home-plots-body {
+        .common-base-image-list-item {
+            width: 100%;
+            margin-bottom: 8px;
+        }
+    }
+}
+
+@media screen and (min-width:1601px) {
+    .app-home-plots {
+        width: 480px;
+    }
+    .app-home-plots-body {
+        .common-base-image-list-item {
+            float: left;
+            width: 48%;
+            margin: 0 4px 8px 4px;
+        }
+    }
+}

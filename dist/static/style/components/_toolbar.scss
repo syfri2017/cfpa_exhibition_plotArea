@@ -1,0 +1,94 @@
+.common-toolbar {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 8px;
+    background-color: #eaeaea;
+    &.common-toolbar-tbar {
+        border-bottom: 1px solid #ddd;
+    }
+    &.common-toolbar-bbar {
+        border-top: 1px solid #ddd;
+    }
+    .common-toolbar-space {
+        flex: 1;
+    }
+    h3.common-toolbar-title {
+        margin-left: 8px;
+    }
+    .common-toolbar-tab-btn {
+        margin-top: -1px;
+        user-select: none;
+        .ivu-radio-group-item {
+            height: 40px;
+            line-height: inherit;
+            padding: 0 32px;
+            border-radius: 0 !important;
+            border-width: 0 1px;
+            border-style: solid ;
+            border-color: transparent;
+            background-color: transparent ;
+            outline: 0;
+            box-shadow: none ;
+            font-size: 14px ;
+            transition: none;
+            &:before,
+            &:after {
+                transition: none !important;
+                opacity: 0 !important;
+            }
+            &:hover {
+                background-color: #e5e5e5;
+                .close-btn {
+                    opacity: 1;
+                    transform: rotate(180deg);
+                }
+            }
+            &:first-child {
+                border-left-color: transparent;
+            }
+            &.ivu-radio-focus {
+                box-shadow: none !important;
+                transition: none;
+            }
+        }
+        .ivu-radio-wrapper-checked {
+            border-top-width: 2px;
+            border-top-color: $base-color !important;
+            // border-top-color: #ddd !important;
+            border-right-color: #ddd !important;
+            border-left-color: #ddd !important;
+            background-color: $moft-panel-background-color !important;
+            &:first-child {
+                border-left-color: #ddd;
+            }
+        }
+        .close-btn {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border: none;
+            background: transparent;
+            opacity: 0;
+            text-align: center;
+            font-family: Ionicons;
+            color: #888;
+            cursor: pointer;
+            transition: all .2s ease-in-out;
+        }
+        // .close-btn:hover {
+        //     color: #fff !important;
+        //     background-color: red;
+        // }
+        .close-btn:before {
+            content: '\F2D7'
+        }
+    }
+    .ivu-form-item {
+        margin-bottom: 0 !important;
+    }
+}

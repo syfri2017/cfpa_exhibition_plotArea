@@ -1,0 +1,61 @@
+.common-base-image-list {
+    .common-base-image-list-body {
+        padding: 16px;
+    }
+    .common-base-image-list-group {
+        margin-bottom: 16px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+    .common-base-image-list-empty {
+        line-height: 40px;
+        text-indent: 32px;
+        color: #aaa;
+    }
+    .common-base-image-list-item {
+        width: 240px;
+        height: 96px;
+        .ivu-card-body {
+            height: 100%;
+            padding: 8px;
+        }
+        .common-base-image-list-item-title {
+            text-align: left;
+        }
+        .common-base-image-list-item-thumb {
+            float: left;
+            width: 80px;
+            height: 80px;
+            margin-right: 16px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid #eaeaea;
+        }
+        .common-base-image-list-item-body {
+            position: relative;
+            height: 100%;
+            margin-left: 80px;
+        }
+        .common-base-image-list-item-toolbar {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: right;
+        }
+    }
+    .common-base-image-list-group-body {
+        padding: 8px 16px;
+    }
+    .common-base-image-list-add-btn {
+        width: 240px;
+        height: 80px;
+        font-size: 18px;
+        color: #aaa;
+        i.ivu-icon {
+            font-size: 24px;
+        }
+    }
+}

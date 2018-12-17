@@ -1,0 +1,93 @@
+.app-ploter-main {
+    display: flex;
+    flex: 1;
+}
+
+.app-ploter-main-body {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    // height: calc(100vh - 32px);
+    background-color: #666;
+}
+
+.app-ploter-tools {
+    display: flex;
+    // position: absolute;
+    // top: 8px;
+    // left: 8px;
+    // width: 96px;
+    user-select: none;
+}
+
+.app-ploter-side-right {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    // height: calc(100vh - 32px - 32px);
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    .ivu-tabs-bar {
+        margin-bottom: 0;
+    }
+    .ivu-tabs-content {
+        flex: 1;
+    }
+    .ivu-tabs-tabpane {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+// .app-ploter-panels {
+//     position: absolute;
+//     top: 8px;
+//     right: 16px;
+//     width: 320px;
+//     box-shadow: 0 0 4px rgba(0,0,0,0.2);
+//     &:hover {
+//         box-shadow: 0 0 16px rgba(0,0,0,0.2);
+//     }
+// }
+
+.app-ploter-main-canvas {
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    &[data-layout-center] {
+        justify-content: center;
+        align-items: center;
+    }
+    .konvajs-content {
+        background-image: url('images/plot-canvas-back.png');
+        box-shadow: 0 0 16px rgba(0, 0, 0, 0.4);
+    }
+    &::-webkit-scrollbar-button {
+        width: 2px;
+        height: 2px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+        background-color: #eaeaea;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: rgba(120, 120, 120, 0.4);
+        border-radius: 6px;
+    }
+}
+
+.app-ploter-main-mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2) inset;
+    pointer-events: none;
+}

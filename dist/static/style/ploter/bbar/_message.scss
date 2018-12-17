@@ -1,0 +1,23 @@
+.app-status-bar-current-wrap {
+    flex: 1;
+    min-width: 400px;
+}
+.app-status-bar-current {
+    display: flex;
+    line-height: 31px;
+}
+.app-status-bar-current-icon {
+    width: 24px;
+    height: 24px;
+    margin: 4px 8px 4px 0;
+}
+.app-status-bar-current-title {
+    margin-right: 8px;
+}
+.app-status-bar-current-tip {
+    flex: 1;
+    color: #aaa;
+}
+// .app-ploter-current-desc {
+//     height: 40px;
+// }

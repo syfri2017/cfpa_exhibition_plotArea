@@ -1,0 +1,103 @@
+.components-business-shape {
+    .components-business-shape-tbar {
+        display: flex;
+        line-height: 32px;
+        background-color: #efefef;
+        border-bottom: 1px solid #ddd;
+        >h6 {
+            flex: 1;
+            padding-left: 8px;
+        }
+        .ivu-btn {
+            margin: 4px;
+        }
+        .ivu-switch {
+            margin: 8px;
+        }
+    }
+    .components-business-shape-list {
+        width: 100% !important;
+        background-color: transparent;
+    }
+    .components-business-shape-list-item {
+        padding: 12px !important;
+        margin: 0 !important;
+        border-bottom: 1px solid #eee;
+        >img {
+            float: left;
+            width: 48px;
+            height: 48px;
+            margin-right: 16px;
+        }
+        &.ivu-menu-item-active:not(.ivu-menu-submenu),
+        &.ivu-menu-item-active:not(.ivu-menu-submenu):hover {
+            background-color: rgb(255, 249, 164) !important;
+        }
+        &:after {
+            display: none !important;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+    }
+    .components-business-shape-list-item-info {
+        display: flex;
+        line-height: 24px;
+        .ivu-icon {
+            line-height: 24px;
+            font-size: 16px;
+            color: #aaa;
+        }
+        .ivu-btn {
+            margin-left: 4px;
+        }
+        .desc {
+            flex: 1;
+            padding-left: 8px;
+            color: #aaa;
+        }
+    }
+    &.mode-sel-shape {
+        .associate-item,
+        .object-item {
+            display: none;
+        }
+    }
+    &.mode-sel-object {
+        .associate-item,
+        .shape-item {
+            display: none;
+        }
+    }
+}
+
+.business-shape-contextmenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 120px;
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    list-style: none;
+    li {
+        padding: 8px 16px;
+        color: #666;
+        border-bottom: 1px solid #eaeaea;
+        &:first-child {
+            border-radius: 4px 4px 0 0;
+        }
+        &:last-child {
+            border-radius: 0 0 4px 4px;
+            border-bottom: none;
+        }
+        &:hover {
+            color: #fff;
+            background-color: rgb(0, 140, 255);
+        }
+    }
+}

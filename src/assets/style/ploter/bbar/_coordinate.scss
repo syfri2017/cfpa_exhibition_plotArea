@@ -1,0 +1,20 @@
+.app-status-bar-coordinate-wrap {
+    flex: 1;
+    min-width: 320px;
+}
+.app-status-bar-coordinate {
+    display: flex;
+    justify-content: center;
+    line-height: 31px;
+}
+.app-status-bar-coordinate-system {
+    margin-right: 8px;
+}
+.app-status-bar-coordinate-value {
+    span {
+        margin: 0 8px;
+    }
+}
+.app-status-bar-coordinate-tip {
+    color: #aaa;
+}

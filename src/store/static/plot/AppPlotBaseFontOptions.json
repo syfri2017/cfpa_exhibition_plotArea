@@ -1,0 +1,75 @@
+{
+    "fontFamily": [
+        {
+            "name": "宋体",
+            "value": "simsun"
+        },
+        {
+            "name": "黑体",
+            "value": "simhei"
+        },
+        {
+            "name": "楷体,楷体_GB2312",
+            "value": "楷体,楷体_GB2312"
+        },
+        {
+            "name": "隶书",
+            "value": "隶书"
+        },
+        {
+            "name": "幼圆",
+            "value": "幼圆"
+        },
+        {
+            "name": "微软雅黑",
+            "value": "Microsoft Yahei"
+        },
+        {
+            "name": "Arial",
+            "value": "Arial"
+        },
+        {
+            "name": "Arial Black",
+            "value": "Arial Black"
+        },
+        {
+            "name": "Comic Sans MS",
+            "value": "Comic Sans MS"
+        },
+        {
+            "name": "Courier",
+            "value": "Courier"
+        },
+        {
+            "name": "System",
+            "value": "System"
+        },
+        {
+            "name": "Times New Roman",
+            "value": "Times New Roman"
+        },
+        {
+            "name": "Verdana",
+            "value": "Verdana"
+        },
+        {
+            "name": "Georgia",
+            "value": "Georgia"
+        },
+        {
+            "name": "Calibri",
+            "value": "Calibri"
+        }
+    ],
+    "fontSize": [10, 12, 14, 16, 18, 24, 32, 48],
+    "fontStyle": [{
+        "name": "正常",
+        "value": "normal"
+    }, {
+        "name": "粗体",
+        "value": "bold"
+    }, {
+        "name": "斜体",
+        "value": "italic"
+    }]
+}

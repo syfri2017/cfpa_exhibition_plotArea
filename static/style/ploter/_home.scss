@@ -1,0 +1,33 @@
+// .app-ploter-home {
+    
+// }
+.app-ploter-home-body {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 50px);
+    .ivu-btn {
+        width: 320px;
+        height: 120px;
+        margin: 16px;
+        font-size: 32px;
+        z-index: 10;
+    }
+}
+
+.app-ploter-home-background {
+    position: absolute;
+    z-index: 0;
+}
+
+.app-ploter-home-create-form {
+    .app-ploter-home-create-form-label {
+        padding-right: 8px;
+        text-align: right;
+    }
+    .ivu-input-number {
+        width: 92%;
+    }
+}

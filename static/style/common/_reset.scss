@@ -1,0 +1,54 @@
+.ivu-menu.ivu-menu-vertical:after {
+    display: none;
+    background-color: transparent !important;
+}
+.ivu-menu.ivu-menu-vertical .ivu-menu-item {
+    margin: 4px;
+    border-radius: 4px;
+    border-right: none !important;
+    user-select: none;
+    // border-left-width: 4px !important;
+    // border-left-style: solid !important;
+    // border-left-color: transparent !important;
+    // border-bottom: 1px solid lighten($moft-panel-background-color-drak, 8%);
+    // background-color: #fafafa;
+    // color: #666;
+}
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item {
+    padding: 8px 16px;
+    color: #fff;
+    background-color: lighten($moft-panel-background-color-dark, 8%);
+    &:hover {
+        background-color: lighten($moft-panel-background-color-dark, 16%) !important;
+    }
+}
+.ivu-menu.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.ivu-menu.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu):hover,
+.ivu-menu.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu),
+.ivu-menu.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu):hover {
+    // background: $moft-panel-background-color !important;
+    // background-color: #ffe462 !important;
+    background-color: #f5f5f5 !important;
+}
+
+.ivu-menu.ivu-menu-vertical .ivu-menu-item-active:not(.ivu-menu-submenu),
+.ivu-menu.ivu-menu-vertical .ivu-menu-submenu-title-active:not(.ivu-menu-submenu) {
+    color: #333 !important;
+    // border-left-color: $base-color !important;
+    &:after {
+        content: '';
+        width: 4px;
+        height: 40%;
+        background-color: #ffe462;
+    }
+}
+
+.ivu-spin-fix {
+    background-color: rgba(255, 255, 255, 0.6) !important;
+    z-index: 999 !important;
+}
+#AppViewport {
+    .ivu-btn-small {
+        font-size: 13px;
+    }
+}

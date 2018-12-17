@@ -1,0 +1,12 @@
+.app-home {
+    height: calc(100vh - 50px);
+}
+
+.app-home-body {
+    position: relative;
+    display: flex;
+}
+
+@import 'home/navigation';
+@import 'home/detail';
+@import 'home/plots';

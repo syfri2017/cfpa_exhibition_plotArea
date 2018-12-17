@@ -1,0 +1,129 @@
+// .app-ploter-tools {
+// }
+
+.app-ploter-tools-graphs-wrap {
+    flex: 1;
+}
+
+.app-ploter-tools-after-btns {
+    display: flex !important;
+    width: 320px;
+    .ivu-btn {
+        flex: 1;
+    }
+}
+
+.app-ploter-tools-graphs {
+    margin-right: 8px;
+    display: inline-block;
+    .ivu-poptip {
+        display: block;
+    }
+    .ivu-poptip-rel {
+        display: block;
+    }
+    .ivu-poptip-body {
+        padding: 0 8px 8px 8px;
+    }
+    .ivu-tabs {
+        min-width: 324px;
+        max-width: 560px;
+    }
+    .ivu-tabs-bar {
+        margin-bottom: 0px;
+    }
+    &:last-child {
+        margin-bottom: 0;
+    }
+    .ivu-poptip-body-content {
+        overflow: inherit;
+    }
+}
+
+.app-ploter-tools-graphs-menu {
+    .ivu-tabs {
+        overflow: inherit;
+    }
+    .ivu-tabs-tabpane {
+        white-space: normal;
+        padding: 2px;
+    }
+}
+
+// .app-ploter-tools-geometry-menu-group {
+// }
+.app-ploter-tools-graphs-menu-item {
+    position: relative;
+    width: 76px;
+    height: 76px;
+    margin: 2px !important;
+    padding: 0 !important;
+    vertical-align: top !important;
+    h6 {
+        position: absolute;
+        bottom: -1px;
+        width: 100%;
+        padding: 0 2px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+    img.app-ploter-tools-graphs-menu-item-icon {
+        position: relative;
+        top: -6px;
+        width: 48px;
+    }
+    &:hover {
+        h6 {
+            width: auto;
+            left: -50%;
+            right: -50%;
+            text-overflow: inherit;
+            white-space: inherit;
+            overflow: inherit;
+            z-index: 99;
+            background-color: #57a3f3;
+            color: #fff;
+            border-radius: 4px;
+        }
+    }
+}
+
+.app-ploter-cropper-model {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .ivu-modal {
+        top: 0;
+    }
+    .ivu-modal-body {
+        padding: 0;
+    }
+    // .ivu-modal {
+    //     top: 8vh;
+    //     width: 80%;
+    //     height: 84vh;
+    // }
+    .ivu-modal-footer {
+        display: flex;
+    }
+    .moft-cropper {
+        height: 64vh !important;
+    }
+    .app-ploter-cropper-model-footer-size {
+        flex: 1;
+        text-align: left;
+        line-height: 32px;
+    }
+}
+
+.app-ploter-material-model {
+    .ivu-modal-body {
+        padding: 4px;
+    }
+    .common-base-image-list-item {
+        float: left;
+        width: 240px;
+        margin: 4px;
+    }
+}

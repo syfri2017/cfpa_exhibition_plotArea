@@ -1,0 +1,76 @@
+.app-ploter-cropper-body {
+    // height: calc(100vh - 90px);
+    overflow: hidden;
+    .moft-cropper {
+        height: 100%;
+    }
+    .moft-cropper-img {
+        display: none;
+    }
+    .cropper-bg {
+        width: 100% !important;
+        background-color: #666;
+        background-image: none;
+    }
+    .cropper-canvas {
+        box-shadow: 0 0 16px rgba(0,0,0,0.4);
+    }
+    .cropper-view-box {
+        outline-width: 2px;
+    }
+    .cropper-point {
+        width: 12px !important;
+        height: 12px !important;
+        border: 2px solid rgba(51, 153, 255, 0.75);
+        background-color: #fff;
+        opacity: 1 !important;
+        &.point-e {
+            margin-top: -6px;
+            right: -6px;
+            top: 50%;
+        }
+
+        &.point-n {
+            left: 50%;
+            margin-left: -6px;
+            top: -6px;
+        }
+
+        &.point-w {
+            left: -6px;
+            margin-top: -6px;
+            top: 50%;
+        }
+
+        &.point-s {
+            bottom: -6px;
+            left: 50%;
+            margin-left: -6px;
+        }
+
+        &.point-ne {
+            right: -6px;
+            top: -6px;
+        }
+
+        &.point-nw {
+            left: -6px;
+            top: -6px;
+        }
+
+        &.point-sw {
+            bottom: -6px;
+            left: -6px;
+        }
+
+        &.point-se {
+            bottom: -6px;
+            right: -6px;
+        }
+    }
+    .cropper-dashed {
+        border-color: #bbb;
+        opacity: 1;
+    }
+    
+}

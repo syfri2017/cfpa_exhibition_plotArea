@@ -1,0 +1,42 @@
+.app-status-bar-stageattr-wrap {
+    flex: 1;
+    min-width: 400px;
+}
+.app-status-bar-stageattr {
+    display: flex;
+    line-height: 31px;
+}
+.app-status-bar-stageattr-poptip {
+    // flex: 1;
+    width: 240px;
+    .ivu-poptip-popper {
+        width: 200px;
+    }
+    .ivu-poptip-body-content {
+        overflow: initial;
+    }
+    .ivu-poptip-rel {
+        width: 100%;
+        text-align: right;
+        cursor: pointer;
+    }
+    .app-status-bar-stageattr-form {
+        .app-status-bar-stageattr-form-label {
+            padding-right: 8px;
+            text-align: right;
+        }
+        .ivu-input-number {
+            width: 92%;
+        }
+        .ivu-form-item {
+            margin-bottom: 8px;
+        }
+    }
+}
+.app-status-bar-stageattr-zoom-slider {
+    width: 160px;
+    margin-left: 16px;
+    .ivu-slider-wrap {
+        margin: 14px 0;
+    }
+}
